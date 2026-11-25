@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b151b">
+  <meta name="description" content="Portofolio Munawir Rajabi — Quality Assurance, Operational Excellence, Data Analytics, dan Digital Process Improvement.">
+  <meta name="author" content="Munawir Rajabi">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Munawir Rajabi — Quality, Data & Operational Excellence">
+  <meta property="og:description" content="Building clearer processes, smarter decisions, and better operations.">
+  <title>Munawir Rajabi — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2215%22%20fill%3D%22%23101f25%22/%3E%3Cpath%20d%3D%22M12%2045V19h7l13%2014%2013-14h7v26h-8V30L32%2043%2020%2030v15Z%22%20fill%3D%22%23cdf5ca%22/%3E%3Ccircle%20cx%3D%2251%22%20cy%3D%2215%22%20r%3D%224%22%20fill%3D%22%23e9bd87%22/%3E%3C/svg%3E%0A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+/* Munawir Rajabi — Portfolio Design System */
+:root{--bg:#0b171b;--bg-alt:#101f23;--surface:#16282d;--surface-raised:#1b3034;--ink:#f1f4ec;--muted:#a2b1ae;--line:rgba(218,239,226,.14);--lime:#c8edc3;--peach:#eabf9a;--ink-dark:#11282a;--light-surface:#eff2eb;--shadow:0 25px 90px rgba(0,0,0,.22);--radius:20px;--ease:cubic-bezier(.22,1,.36,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}body[data-theme="light"]{--bg:#eff3ec;--bg-alt:#e6ede5;--surface:#f8fbf5;--surface-raised:#e7eee6;--ink:#163033;--muted:#526a67;--line:rgba(20,60,53,.15);--lime:#2b654e;--peach:#c2764a;--ink-dark:#10282a;--light-surface:#e5ebe1;--shadow:0 25px 80px rgba(41,69,49,.11)}a{color:inherit;text-decoration:none}button{font:inherit}button:focus-visible,a:focus-visible{outline:3px solid var(--peach);outline-offset:4px}::selection{background:#a3dfbc;color:#0d2923}.container{width:min(1192px,calc(100% - 96px));margin-inline:auto}.skip-link{position:absolute;top:-60px;left:16px;background:var(--lime);color:#112a25;padding:12px 18px;z-index:150}.skip-link:focus{top:12px}.scroll-progress{position:fixed;z-index:150;top:0;left:0;right:0;height:3px;pointer-events:none}.scroll-progress span{display:block;width:0;height:100%;background:var(--lime)}
+/* Header */
+.site-header{position:fixed;inset:0 0 auto;z-index:100;background:rgba(11,23,27,.86);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid rgba(241,244,236,.08);transition:background .3s,border-color .3s}body[data-theme="light"] .site-header{background:rgba(239,243,236,.9);border-color:rgba(22,48,51,.11)}.header-inner{height:83px;display:flex;align-items:center;justify-content:space-between;gap:38px}.wordmark{display:flex;align-items:center;gap:11px;flex:none}.wordmark-symbol{display:grid;place-items:center;width:45px;height:45px;background:var(--lime);color:var(--bg);font:800 19px/1 'Manrope',sans-serif;letter-spacing:-2px;border-radius:13px;transform:rotate(-3deg)}.wordmark-dot{color:#eb9d6e}.wordmark-label{font:800 12px/1.22 'Manrope',sans-serif;letter-spacing:-.35px}.wordmark-square{font-size:6px;color:var(--peach);vertical-align:super;padding-left:2px}.main-nav{display:flex;gap:31px;align-items:center;margin-left:auto}.main-nav a{position:relative;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;transition:color .2s}.main-nav a:after{content:'';position:absolute;left:0;right:100%;bottom:-12px;height:2px;background:var(--lime);transition:right .25s var(--ease)}.main-nav a:hover,.main-nav a.active{color:var(--ink)}.main-nav a:hover:after,.main-nav a.active:after{right:0}.header-actions{display:flex;align-items:center;gap:8px}.utility-btn{height:37px;min-width:37px;border:1px solid var(--line);color:var(--ink);background:transparent;border-radius:10px;cursor:pointer;transition:background .2s,transform .2s}.utility-btn:hover{background:var(--surface-raised);transform:translateY(-2px)}.lang-switch{font-size:12px;font-weight:800;letter-spacing:.05em}.icon-btn{display:grid;place-items:center}.icon-btn svg{width:17px;height:17px}.moon-icon{display:none}body[data-theme="light"] .moon-icon{display:block}body[data-theme="light"] .sun-icon{display:none}.menu-toggle{display:none;gap:4px;align-content:center;padding:10px}.menu-toggle span{display:block;width:17px;height:1.5px;background:currentColor;transition:transform .2s,opacity .2s}
+/* Shared type */
+.section{padding:120px 0;position:relative}.section-top{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:25px;margin-bottom:71px}.section-kicker,.section-side,.small-overline,.eyebrow{font:800 11px/1.3 'Manrope',sans-serif;letter-spacing:.14em}.section-kicker{display:flex;align-items:center;gap:20px}.section-index{font:800 11px/1 'Manrope';color:var(--peach)}.section-side{color:var(--muted);font-size:10px}.section-heading{font:700 clamp(34px,4vw,58px)/1.2 'Manrope',sans-serif;letter-spacing:-.055em;margin:0}.section-heading em{font-style:normal;color:var(--lime)}.small-overline{color:var(--muted)}.reveal{opacity:0;transform:translateY(25px);transition:opacity .85s var(--ease),transform .85s var(--ease)}.reveal.visible{opacity:1;transform:none}
+/* Hero */
+.hero{position:relative;min-height:760px;padding:165px 0 34px;overflow:hidden;background:radial-gradient(ellipse at 80% 42%,rgba(46,94,76,.25),transparent 42%),var(--bg)}.hero:before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(var(--muted) .7px,transparent .7px);background-size:26px 26px;mask-image:linear-gradient(90deg,transparent 30%,#000)}.hero-glow{position:absolute;right:-240px;top:55px;width:720px;height:720px;border:1px solid rgba(202,236,201,.065);border-radius:50%;box-shadow:0 0 0 110px rgba(202,236,201,.018),0 0 0 240px rgba(202,236,201,.01);pointer-events:none}.hero-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(400px,.94fr);gap:60px;align-items:center}.hero-copy{padding:34px 0 38px}.status-line{display:inline-flex;align-items:center;gap:11px;padding:10px 14px;border:1px solid var(--line);border-radius:30px;background:rgba(129,191,152,.065);font:600 11px/1.4 'DM Sans';color:var(--lime);max-width:100%}.status-pulse{display:inline-block;width:7px;height:7px;border-radius:50%;background:#9ad39b;box-shadow:0 0 0 5px rgba(154,211,155,.13);flex:none;animation:pulse 2.4s infinite}@keyframes pulse{50%{box-shadow:0 0 0 9px rgba(154,211,155,.015)}}.hero-eyebrow{display:flex;align-items:center;gap:15px;margin:52px 0 22px;color:var(--muted)}.eyebrow-line{width:25px;height:1px;background:var(--peach)}h1{font:800 clamp(46px,5vw,75px)/1.11 'Manrope',sans-serif;letter-spacing:-.065em;margin:0;max-width:680px}h1 em{font-style:normal;color:var(--lime);position:relative}h1 em:after{content:'';display:block;position:absolute;bottom:-6px;left:0;right:0;height:4px;background:var(--peach);border-radius:100%;transform:rotate(-3deg)}.title-period{color:var(--peach)}.hero-description{font-size:15px;line-height:1.9;color:var(--muted);max-width:530px;margin:28px 0}.hero-chips{display:flex;flex-wrap:wrap;gap:8px;margin:30px 0 38px}.hero-chips span{font-size:11px;font-weight:650;padding:9px 12px;border-radius:6px;border:1px solid var(--line);color:var(--ink);background:rgba(255,255,255,.015)}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{min-height:52px;padding:15px 21px;display:inline-flex;align-items:center;gap:24px;justify-content:space-between;border-radius:9px;font-size:12px;font-weight:800;transition:transform .2s var(--ease),background .2s}.button svg{width:18px;height:18px}.button:hover{transform:translateY(-4px)}.button-primary{background:var(--lime);color:var(--bg)}body[data-theme="light"] .button-primary{color:#fff}.button-ghost{border:1px solid var(--line);background:rgba(255,255,255,.02);color:var(--ink)}.button-ghost:hover{background:var(--surface)}.hero-social{display:flex;align-items:center;gap:21px;margin-top:52px}.hero-social-label{color:var(--muted);font-size:9px;font-weight:800;letter-spacing:.15em}.hero-social a{font-size:11px;font-weight:700;transition:color .2s}.hero-social a:hover{color:var(--lime)}.hero-social a span{color:var(--peach)}
+/* Hero illustration */
+.hero-stage{height:585px;position:relative;display:flex;align-items:center;justify-content:center;isolation:isolate}.stage-grid{position:absolute;inset:30px 0 0;border-radius:50%;background-image:linear-gradient(rgba(196,228,210,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(196,228,210,.06) 1px,transparent 1px);background-size:32px 32px;mask-image:radial-gradient(circle,#000,transparent 74%);z-index:-1}.orbit{position:absolute;border:1px solid rgba(196,228,210,.13);border-radius:50%;z-index:-1}.orbit-a{width:520px;height:520px}.orbit-b{width:430px;height:430px;border-style:dashed;animation:orbit 100s linear infinite}@keyframes orbit{to{transform:rotate(360deg)}}.identity-card{position:relative;width:345px;height:405px;transform:rotate(-5deg);border-radius:28px;background:linear-gradient(150deg,#284b46,#182e30 63%,#112225);box-shadow:0 42px 110px rgba(0,0,0,.45),inset 0 0 0 1px rgba(219,255,232,.13);padding:27px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.identity-card:before{content:'';position:absolute;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,rgba(160,225,178,.27),transparent 68%);left:-110px;top:60px}.identity-card:after{content:'';position:absolute;inset:48px -40px auto auto;width:240px;height:240px;border:1px solid rgba(213,247,225,.12);border-radius:50%;box-shadow:0 0 0 52px rgba(213,247,225,.025),0 0 0 104px rgba(213,247,225,.02)}.identity-top,.identity-bottom{display:flex;align-items:center;justify-content:space-between;z-index:2;position:relative}.identity-top{font:800 9px/1 'Manrope';letter-spacing:.15em;color:#c5ded2}.tiny-icon{font-size:21px;color:#b7eec8}.mini-grid{font-size:25px;color:#b5d9c4}.identity-avatar{position:absolute;top:115px;left:65px;width:215px;height:215px;border:1px solid rgba(218,246,217,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(231,249,230,.14),rgba(188,224,197,.015));overflow:hidden;z-index:2}.identity-avatar:before{content:'';position:absolute;inset:12px;border:1px dotted rgba(218,246,217,.32);border-radius:50%}.identity-avatar>span{font:800 77px/1 'Manrope';color:#ddf6de;letter-spacing:-.11em;transform:rotate(5deg);text-shadow:0 6px 18px rgba(0,0,0,.15)}.identity-avatar>span span{font-size:24px;vertical-align:super;color:var(--peach);padding-left:3px}.identity-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}.identity-bottom p{font:800 9px/1 'Manrope';letter-spacing:.13em;color:#b9d2c5;margin:0 0 7px}.identity-bottom strong{font:700 19px/1.2 'Manrope';letter-spacing:-.04em;color:#f2f9f1}.circle-arrow{width:40px;height:40px;display:grid;place-items:center;border:1px solid rgba(224,245,223,.28);border-radius:50%;font-size:21px;color:#d9f2da}.floating-note{position:absolute;z-index:5;background:#eef3ea;color:#183032;border:1px solid #fff;box-shadow:0 12px 45px rgba(0,0,0,.2);border-radius:12px;display:flex;gap:12px;align-items:center;padding:14px 18px;animation:floatY 6s ease-in-out infinite}.floating-note strong{font:800 12px/1.4 'Manrope';letter-spacing:-.03em;display:block;margin-top:5px;white-space:nowrap}.tiny-text{font:800 8px/1 'Manrope';letter-spacing:.1em;color:#6f8b7d}.note-one{left:-34px;top:126px;transform:rotate(3deg)}.note-two{right:-30px;bottom:122px;animation-delay:-2.7s}.note-icon{font-size:23px;width:36px;height:36px;display:grid;place-items:center;border-radius:9px}.note-icon.mint{background:#cee9cc;color:#285c4b}.note-chart{width:68px;height:35px;display:flex;align-items:end;gap:5px}.note-chart i{width:6px;height:40%;background:#6fa68e;border-radius:2px}.note-chart i:nth-child(2){height:70%}.note-chart i:nth-child(3){height:55%}.note-chart i:nth-child(4){height:88%;background:#306b56}.note-chart i:nth-child(5){height:67%}.note-chart i:nth-child(6){height:95%;background:#306b56}.note-chart i:nth-child(7){height:83%}@keyframes floatY{50%{translate:0 -10px}}.stage-label{position:absolute;bottom:0;right:35px;font:800 10px/1 'Manrope';letter-spacing:.16em;color:var(--muted)}.stage-label span{color:var(--peach);padding:0 8px}.hero-bottom{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2;border-top:1px solid var(--line);margin-top:20px;padding-top:25px}.hero-scroll{display:flex;align-items:center;gap:13px;color:var(--muted);font:800 10px/1 'Manrope';letter-spacing:.14em}.scroll-box{display:grid;place-items:center;width:26px;height:33px;border:1px solid var(--line);border-radius:13px;color:var(--lime);font-size:15px}.hero-index{font:800 11px/1 'Manrope';letter-spacing:.14em}.hero-index span{color:var(--peach);margin:0 8px}.expertise-strip{overflow:hidden;background:var(--lime);color:#163029;height:57px;display:flex;align-items:center}.expertise-track{white-space:nowrap;animation:marquee 33s linear infinite}.expertise-track span{font:800 13px/1 'Manrope';letter-spacing:.15em}.expertise-track b{margin:0 36px;color:#4a8467;font-size:20px;vertical-align:middle}@keyframes marquee{to{transform:translateX(-44%)}}
+/* About */
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:90px}.about-main .section-heading{max-width:690px}.about-lead{font:500 19px/1.7 'Manrope';letter-spacing:-.025em;max-width:640px;margin:31px 0 20px}.about-body{font-size:15px;line-height:1.95;color:var(--muted);max-width:640px;margin:0 0 34px}.text-link{display:inline-flex;gap:40px;align-items:center;font-size:13px;font-weight:800;border-bottom:1px solid var(--lime);padding-bottom:12px;transition:gap .25s}.text-link:hover{gap:55px}.text-link span:last-child{font-size:18px;color:var(--lime)}.about-side{border-left:1px solid var(--line);padding-left:34px}.stat-tile{border-bottom:1px solid var(--line);padding:12px 0 26px;margin-bottom:23px}.stat-tile:last-child{border:0}.stat-tile>span{font:800 10px/1 'Manrope';letter-spacing:.14em;color:var(--muted)}.stat-tile strong{display:block;font:800 58px/1.2 'Manrope';letter-spacing:-.06em;margin-top:8px}.stat-tile strong span{font-size:27px;color:var(--lime)}.stat-tile small{color:var(--muted);font-size:12px}.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:90px}.principle-card{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:29px 27px 30px;transition:transform .25s,background .25s}.principle-card:hover{transform:translateY(-5px);background:var(--surface-raised)}.principle-top{display:flex;justify-content:space-between;align-items:center}.principle-number{font:800 11px/1 'Manrope';color:var(--muted)}.principle-icon{font-size:33px;color:var(--lime)}.principle-card h3{font:800 18px/1.3 'Manrope';letter-spacing:-.04em;margin:36px 0 10px}.principle-card p{font-size:13px;line-height:1.8;color:var(--muted);margin:0}
+/* Work */
+.work-section{background:var(--light-surface);color:var(--ink-dark);--line:rgba(20,48,43,.16);--muted:#6b8179;--lime:#285d47;--peach:#b77b4f}.work-section .section-heading em{color:#3c7963}.section-intro{display:flex;align-items:end;justify-content:space-between;gap:70px;margin-bottom:48px}.section-intro .section-heading{margin-top:15px}.section-intro-text{font-size:14px;line-height:1.85;color:#6a8178;max-width:330px;margin:0 0 4px}.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}.filter{cursor:pointer;border:1px solid #cbd8ce;background:transparent;color:#527166;font-size:12px;font-weight:800;padding:10px 17px;border-radius:30px;transition:.2s}.filter:hover{border-color:#587761;color:#203e32}.filter[aria-pressed="true"]{background:#1b3d33;color:#ecf7ee;border-color:#1b3d33}.projects-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.project-card{border:1px solid #d6dfd6;background:#f9faf5;color:#18302d;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-height:440px;transition:transform .35s var(--ease),box-shadow .35s var(--ease);animation:cardIn .45s both}.project-card:hover{transform:translateY(-8px);box-shadow:0 27px 55px rgba(38,67,50,.15)}@keyframes cardIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}.project-art{height:190px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#dce8dc}.project-art:before{content:'';position:absolute;inset:0;opacity:.25;background-image:linear-gradient(rgba(49,91,70,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(49,91,70,.13) 1px,transparent 1px);background-size:23px 23px}.project-card:nth-child(3n+2) .project-art{background:#e3e0d5}.project-card:nth-child(3n+3) .project-art{background:#d9e3e7}.art-label{position:absolute;top:16px;left:19px;z-index:2;color:#3a6654;font:800 9px/1 'Manrope';letter-spacing:.13em}.art-side{position:absolute;bottom:17px;right:17px;color:#638274;font:800 10px/1 'Manrope'}.visual{position:relative;z-index:1;width:77%;height:122px;background:#f9fdf7;box-shadow:0 15px 30px rgba(15,54,37,.12);border:1px solid rgba(47,91,68,.1);border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden}.visual:before{content:'';position:absolute;top:0;left:0;right:0;height:19px;border-bottom:1px solid #dce6dc;background:#f0f6ed}.visual:after{content:'● ● ●';position:absolute;top:4px;left:10px;font-size:7px;letter-spacing:3px;color:#7ea791}.flow-steps{display:flex;align-items:center;gap:8px;margin-top:20px}.flow-steps span{width:47px;height:41px;border:1px solid #bedbc4;background:#e5f0e4;border-radius:5px;display:flex;align-items:center;justify-content:center;color:#2b664f;font-size:16px}.flow-steps span:nth-child(3){background:#a4d6b4}.flow-steps i{width:14px;height:1px;background:#5d977b;position:relative}.flow-steps i:after{content:'';position:absolute;right:0;top:-3px;border:3px solid transparent;border-left-color:#5d977b}.check-visual{width:80%;padding:31px 14px 8px;display:grid;gap:8px}.check-row{height:16px;display:flex;align-items:center;gap:8px}.check-row:before{content:'✓';display:grid;place-items:center;width:15px;height:15px;border:1px solid #98c7a3;background:#d9ecdc;border-radius:3px;color:#29644c;font-size:10px}.check-row i{height:6px;border-radius:4px;background:#bcd8c2;width:70%}.check-row:nth-child(2) i{width:90%}.check-row:nth-child(3):before{content:'!';background:#f3ddc7;border-color:#e3b68d;color:#8d5433}.check-row:nth-child(4) i{width:52%}.blocks-visual{height:118px;width:180px;background:transparent;box-shadow:none;border:0;display:grid;grid-template-columns:repeat(4,1fr);gap:7px;padding:4px}.blocks-visual:before,.blocks-visual:after{display:none}.blocks-visual b{border:1px solid #7cb697;border-radius:4px;background:#a3d3b1;box-shadow:inset 0 4px rgba(255,255,255,.25)}.blocks-visual b:nth-child(3n){background:#c1d4be}.blocks-visual b:nth-child(5n){background:#6a9e8a}.graph-visual{padding:30px 20px 11px;align-items:end}.graph-visual:before{height:17px}.graph-bars{height:67px;width:100%;display:flex;justify-content:space-between;align-items:end;gap:7px}.graph-bars b{flex:1;background:#86bd96;border-radius:3px 3px 0 0}.graph-bars b:nth-child(even){background:#418765}.graph-line{position:absolute;top:47px;left:13px;right:13px;height:28px;z-index:2}.graph-line svg{width:100%;height:100%}.form-visual{padding:26px 15px 8px;display:flex;align-items:stretch;justify-content:center;flex-direction:column;gap:8px}.form-field{height:16px;border:1px solid #d9e5d7;background:#f3f7f1;border-radius:4px}.form-field.short{width:65%}.form-field.selected{background:#cce7cc;border-color:#99c9a5}.allocation-visual{padding:30px 17px 11px;display:flex;flex-direction:column;gap:7px;justify-content:center}.allocation-line{display:flex;height:15px;width:100%;background:#eaf1e9;border-radius:3px;overflow:hidden}.allocation-line i{background:#488970;width:53%}.allocation-line:nth-child(2) i{width:80%;background:#82bd96}.allocation-line:nth-child(3) i{width:38%;background:#be9b7c}.allocation-line:nth-child(4) i{width:68%;background:#629e86}.project-content{padding:25px 25px 24px;flex:1;display:flex;flex-direction:column}.project-meta{display:flex;align-items:center;justify-content:space-between;color:#668075;font:800 10px/1.3 'Manrope';letter-spacing:.09em}.project-content h3{font:800 22px/1.33 'Manrope';letter-spacing:-.045em;margin:18px 0 9px}.project-content p{color:#6e8178;font-size:12.5px;line-height:1.7;margin:0 0 22px}.project-action{margin-top:auto;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #dde4db;padding-top:16px;background:transparent;border-left:0;border-right:0;border-bottom:0;width:100%;cursor:pointer;color:#1d4437;font-size:11px;font-weight:800;text-align:left}.project-action:hover .action-arrow{background:#244e3d;color:#fff;transform:rotate(45deg)}.action-arrow{width:29px;height:29px;display:grid;place-items:center;border:1px solid #bdd0bf;border-radius:50%;font-size:18px;transition:.25s}.work-end{border-top:1px solid #cad5cb;display:flex;align-items:center;justify-content:space-between;margin-top:54px;padding-top:18px;color:#648076;font-size:12px}.work-end-star{font-size:23px;color:#3d7760}
+/* Experience */
+.experience-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:110px}.experience-head>p,.skills-heading>p{color:var(--muted);font-size:14px;line-height:1.9;max-width:440px;margin:26px 0}.experience-decoration{display:flex;align-items:center;gap:12px;margin-top:78px;color:var(--muted);font:800 12px/1 'Manrope';letter-spacing:.15em}.decoration-line{height:1px;flex:1;background:linear-gradient(90deg,var(--lime),transparent);max-width:160px}.timeline{position:relative;padding-left:38px}.timeline:before{content:'';position:absolute;left:7px;top:16px;bottom:38px;width:1px;background:var(--line)}.timeline-item{position:relative;padding:0 0 47px;border-bottom:1px solid var(--line);margin-bottom:30px}.timeline-item:last-child{border:0;margin:0;padding-bottom:0}.timeline-item:before{content:'';position:absolute;left:-36px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--muted)}.timeline-item:first-child:before{background:var(--lime);border-color:var(--lime);box-shadow:0 0 0 6px rgba(188,239,196,.1)}.timeline-date{display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--lime);font:800 10px/1.4 'Manrope';letter-spacing:.1em}.current-tag{font-size:9px;border:1px solid var(--line);padding:5px 9px;border-radius:30px;color:var(--muted)}.timeline-item h3{font:800 20px/1.35 'Manrope';letter-spacing:-.04em;margin:18px 0 4px}.timeline-company{font-size:13px;font-weight:700;color:var(--ink)}.timeline-meta{display:block;color:var(--peach);font-size:11px;margin-top:6px}.timeline-item p{font-size:13px;color:var(--muted);line-height:1.85;margin:17px 0 0}
+/* Skills */
+.skills-section{background:var(--bg-alt)}.skills-layout{display:grid;grid-template-columns:1fr 1fr;gap:110px}.skills-heading{position:relative}.skills-mark{display:flex;align-items:end;gap:27px;margin-top:83px}.skills-star{font:300 140px/1 'Manrope';color:var(--lime)}.skills-mark span{font:800 13px/1.7 'Manrope';letter-spacing:.16em;color:var(--muted);padding-bottom:20px}.skill-group{padding:0 0 30px;margin-bottom:29px;border-bottom:1px solid var(--line)}.skill-group:last-child{margin-bottom:0;border:none}.skill-group-head{display:flex;justify-content:space-between;gap:10px;align-items:baseline}.skill-group-head h3{font:800 20px/1.2 'Manrope';letter-spacing:-.04em;margin:0}.skill-group-head span{font:800 11px/1 'Manrope';color:var(--peach)}.skill-group p{color:var(--muted);font-size:12px;line-height:1.7;margin:11px 0 19px}.skill-tags{display:flex;flex-wrap:wrap;gap:7px}.skill-tag{padding:9px 11px;border:1px solid var(--line);background:var(--surface);border-radius:6px;font-size:11px;font-weight:650;color:var(--ink)}
+/* Credentials */
+.credential-head{margin-bottom:42px}.credential-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.credential-card{border:1px solid var(--line);background:var(--surface);border-radius:14px;min-height:265px;padding:23px;display:flex;flex-direction:column;transition:transform .2s}.credential-card:hover{transform:translateY(-5px)}.credential-card-header{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font:800 10px/1 'Manrope';letter-spacing:.1em}.credential-card-icon{font-size:35px;color:var(--lime);margin:30px 0 14px}.credential-card h3{font:800 17px/1.4 'Manrope';letter-spacing:-.035em;margin:0 0 9px}.credential-card p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}.credential-card small{display:block;margin-top:auto;padding-top:17px;font-size:10px;color:var(--peach);font-weight:700}.community-row{display:flex;align-items:flex-start;gap:27px;border-top:1px solid var(--line);margin-top:58px;padding:43px 0 0;max-width:890px}.community-icon{width:54px;height:54px;display:grid;place-items:center;border-radius:14px;background:var(--lime);color:var(--bg);font-size:28px;flex:none}.community-row h3{font:800 22px/1.3 'Manrope';letter-spacing:-.04em;margin:13px 0}.community-row p{max-width:750px;color:var(--muted);font-size:13px;line-height:1.8;margin:0}
+/* Contact */
+.contact-section{position:relative;background:#cbebc8;color:#133029;padding:100px 0 95px;overflow:hidden}.contact-section:before{content:'';width:780px;height:780px;border:1px solid rgba(29,96,68,.18);position:absolute;right:-220px;top:-100px;border-radius:50%;box-shadow:0 0 0 110px rgba(29,96,68,.04),0 0 0 220px rgba(29,96,68,.03)}.contact-pattern{position:absolute;right:2%;bottom:-200px;font:800 480px/1 'Manrope';letter-spacing:-.18em;color:rgba(29,85,59,.045);pointer-events:none}.contact-pattern span{margin-left:-70px}.contact-content{position:relative;z-index:1;max-width:850px}.contact-eyebrow{display:inline-flex;align-items:center;gap:13px;letter-spacing:.14em;font:800 11px/1 'Manrope'}.contact-eyebrow .status-pulse{background:#276448;box-shadow:0 0 0 5px rgba(39,100,72,.12)}.contact-content h2{font:800 clamp(49px,6.8vw,94px)/1.08 'Manrope';letter-spacing:-.07em;margin:29px 0}.contact-content h2 em{font-style:normal;color:#638973}.contact-content p{font-size:15px;line-height:1.85;max-width:600px;margin:0}.contact-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:35px}.contact-actions a{min-width:190px;display:flex;align-items:center;justify-content:space-between;border-radius:8px;padding:18px 23px;font-size:12px;font-weight:800;transition:transform .2s}.contact-actions a:hover{transform:translateY(-4px)}.contact-mail{background:#18392e;color:#f5fff3}.contact-linkedin{border:1px solid rgba(20,54,39,.27)}.contact-address{font-size:11px!important;font-weight:650;letter-spacing:.03em;margin-top:55px!important}.contact-address span{margin:0 5px}.site-footer{background:#081216;color:#d5e3d8}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:28px 0}.footer-logo{font:800 29px/1 'Manrope';letter-spacing:-.13em}.footer-logo span{color:#9accaa}.footer-inner>span{color:#849e92;font-size:11px}.back-top{font:800 10px/1 'Manrope';letter-spacing:.07em;white-space:nowrap}.back-top:hover{color:#bdecc1}
+/* Modal */
+.project-dialog{padding:0;border:1px solid rgba(208,237,213,.22);border-radius:20px;width:min(680px,calc(100vw - 32px));max-height:min(85vh,880px);background:#f3f6f0;color:#18332d;box-shadow:0 32px 100px rgba(0,0,0,.5);overscroll-behavior:contain}.project-dialog::backdrop{background:rgba(3,13,15,.79);backdrop-filter:blur(7px)}.dialog-inner{padding:34px 40px 38px}.dialog-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #cddccf;padding-bottom:18px}.dialog-close{border:1px solid #c1d4c5;background:transparent;color:#27503b;border-radius:50%;cursor:pointer;width:35px;height:35px;display:grid;place-items:center;font-size:24px;line-height:1}.dialog-close:hover{background:#dbece0}.dialog-title{font:800 clamp(27px,4vw,41px)/1.18 'Manrope';letter-spacing:-.05em;margin:31px 0 14px}.dialog-summary{font-size:15px;line-height:1.8;color:#567264;margin:0 0 30px}.dialog-detail{padding:18px 0;border-top:1px solid #d6e1d6}.dialog-detail h4{font:800 11px/1 'Manrope';letter-spacing:.12em;color:#3c7355;margin:0 0 10px;text-transform:uppercase}.dialog-detail p{margin:0;font-size:13px;line-height:1.85;color:#4e685c}.dialog-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.dialog-tags span{border:1px solid #c9dbc9;border-radius:5px;padding:8px 10px;font-size:11px;font-weight:750}.dialog-note{border-radius:8px;padding:14px 17px;background:#e4ece3;color:#698075;font-size:11px;line-height:1.7;margin-top:23px}
+/* Responsive */
+@media(max-width:1100px){.container{width:min(100% - 66px,1100px)}.main-nav{gap:19px}.hero-layout{grid-template-columns:1fr 1fr;gap:25px}h1{font-size:clamp(44px,5.5vw,62px)}.hero-stage{transform:scale(.85);transform-origin:center}.note-one{left:-60px}.note-two{right:-55px}.about-grid{gap:48px}.experience-layout,.skills-layout{gap:60px}.credential-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:850px){.container{width:calc(100% - 48px)}.header-inner{height:75px}.main-nav{position:absolute;top:75px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:25px 24px 28px;display:none;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 35px 60px rgba(0,0,0,.25)}.main-nav.open{display:flex}.main-nav a{padding:14px 0;font-size:15px;border-bottom:1px solid var(--line)}.main-nav a:after{display:none}.menu-toggle{display:grid}.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}.menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}.menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}.hero{padding-top:125px;min-height:auto}.hero-layout{display:flex;flex-direction:column;align-items:stretch;gap:0}.hero-copy{padding:20px 0}.hero-stage{height:480px;transform:scale(.85);margin-top:-15px}.hero-bottom{margin-top:-15px}.about-grid{grid-template-columns:1fr}.about-side{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;border-left:0;padding-left:0}.stat-tile{margin:0;border-bottom:0;border-top:1px solid var(--line);padding-top:20px}.stat-tile strong{font-size:44px}.principles{margin-top:50px}.projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.experience-layout,.skills-layout{grid-template-columns:1fr;gap:46px}.experience-decoration,.skills-mark{display:none}.section{padding:85px 0}.section-top{margin-bottom:45px}.skills-layout{gap:30px}}
+@media(max-width:620px){.container{width:calc(100% - 36px)}.wordmark-label{display:none}.header-inner{height:69px}.main-nav{top:69px}.hero{padding:110px 0 20px}.hero-eyebrow{margin-top:40px}.hero-copy{padding:5px 0 0}.status-line{font-size:10px;padding:9px 11px}h1{font-size:clamp(40px,11vw,58px);letter-spacing:-.065em}.hero-description{font-size:14px;line-height:1.8}.hero-chips{margin:24px 0 28px}.hero-chips span{font-size:10px}.button{width:100%;justify-content:space-between}.hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.button{min-height:58px;font-size:11px;padding:13px}.button svg{width:15px}.hero-social{margin-top:36px}.hero-stage{width:100%;height:400px;transform:scale(.71);margin-top:-36px;margin-bottom:-44px}.identity-card{flex:none}.floating-note.note-one{left:-16px;top:90px}.floating-note.note-two{right:-20px;bottom:55px}.stage-label{bottom:-7px}.hero-bottom{margin-top:20px;padding-top:19px}.hero-scroll{font-size:9px}.hero-index{font-size:9px}.expertise-strip{height:49px}.expertise-track span{font-size:11px}.expertise-track b{margin:0 16px}.section{padding:74px 0}.section-top{margin-bottom:40px;padding-bottom:19px}.section-side{display:none}.section-heading{font-size:clamp(34px,8.6vw,49px)}.about-lead{font-size:16px}.about-body{font-size:13px}.about-side{gap:10px}.stat-tile{padding:14px 3px 0}.stat-tile>span{font-size:8px;letter-spacing:.03em}.stat-tile strong{font-size:35px;margin-top:13px}.stat-tile strong span{font-size:15px}.stat-tile small{font-size:9px;line-height:1.5;display:block}.principles{grid-template-columns:1fr;gap:8px;margin-top:48px}.principle-card{padding:22px}.principle-card h3{margin-top:14px}.section-intro{display:block;margin-bottom:30px}.section-intro-text{max-width:none;margin-top:21px;font-size:13px}.filter-bar{gap:6px}.filter{padding:9px 13px;font-size:11px}.projects-grid{grid-template-columns:1fr}.project-card{min-height:402px}.project-art{height:186px}.project-content h3{font-size:21px}.work-end{gap:18px;line-height:1.65}.experience-layout{gap:42px}.timeline{padding-left:31px}.timeline-item:before{left:-29px}.skills-layout{gap:38px}.credential-grid{grid-template-columns:1fr 1fr;gap:8px}.credential-card{min-height:235px;padding:16px}.credential-card-icon{font-size:27px;margin:24px 0 12px}.credential-card h3{font-size:14px}.credential-card p{font-size:10px}.credential-card small{font-size:9px}.credential-card-header{font-size:9px}.community-row{gap:14px;align-items:flex-start}.community-icon{width:42px;height:42px;flex:none;font-size:22px}.community-row h3{font-size:19px}.community-row p{font-size:12px}.contact-section{padding:76px 0 74px}.contact-content h2{font-size:clamp(46px,12vw,66px)}.contact-content p{font-size:13px}.contact-actions a{min-width:0;flex:1;padding:17px;font-size:12px}.footer-inner{flex-wrap:wrap;justify-content:space-between}.footer-inner>span{order:3;width:100%;font-size:10px}.dialog-inner{padding:24px}.dialog-title{font-size:29px}}
+@media(max-width:375px){.hero-actions{grid-template-columns:1fr}.hero-stage{transform:scale(.61);margin-top:-65px;margin-bottom:-75px}.credential-grid{grid-template-columns:1fr}.credential-card{min-height:190px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+
+/* Public portfolio: activity gallery and original certificate collection */
+.menu-toggle{background:transparent;border:1px solid var(--line);border-radius:10px;color:var(--ink);cursor:pointer}
+@media(min-width:1101px){.credential-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+.identity-avatar img{object-position:center 24%;filter:saturate(.96)}
+.main-nav{gap:20px}
+.credential-library{margin-top:78px;padding-top:35px;border-top:1px solid var(--line)}
+.credential-library-head{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:28px}
+.credential-library-head h3{font:800 clamp(22px,2.5vw,33px)/1.2 'Manrope',sans-serif;letter-spacing:-.05em;margin:12px 0 0}
+.credential-library-head>p{max-width:355px;font-size:13px;color:var(--muted);line-height:1.7;margin:0}
+.certificate-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.certificate-tile{display:flex;flex-direction:column;overflow:hidden;border-radius:14px;border:1px solid var(--line);background:var(--surface);transition:transform .25s,border-color .25s;min-width:0}
+.certificate-tile:hover{transform:translateY(-5px);border-color:var(--lime)}
+.certificate-preview{height:165px;background:radial-gradient(circle at 50% 40%,#ecf2e7,#acbdb3);display:grid;place-items:center;overflow:hidden;position:relative}
+.certificate-preview:after{content:'↗';position:absolute;right:14px;top:14px;display:grid;place-items:center;background:#122b26;color:#d1edd3;border-radius:50%;height:30px;width:30px;font-size:16px;box-shadow:0 6px 18px #0005}
+.certificate-preview img{height:100%;width:100%;object-fit:contain;object-position:top center;transition:transform .4s var(--ease)}
+.certificate-tile:hover .certificate-preview img{transform:scale(1.06)}
+.certificate-info{padding:18px 17px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.certificate-info small{font:800 10px/1 'Manrope';color:var(--peach);letter-spacing:.1em}
+.certificate-info h4{font:800 15px/1.4 'Manrope',sans-serif;letter-spacing:-.03em;margin:0}
+.certificate-info p{font-size:11px;color:var(--muted);line-height:1.5;margin:0}
+.certificate-info span{font-size:11px;color:var(--lime);font-weight:800;margin-top:auto;padding-top:8px}
+.gallery-section{background:var(--bg-alt)}
+.activity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.activity-card{min-width:0;border-radius:17px;background:var(--surface);border:1px solid var(--line);overflow:hidden;animation:galleryFade .5s both}
+@keyframes galleryFade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.activity-open{border:0;padding:0;width:100%;height:242px;cursor:zoom-in;display:block;background:#243635;overflow:hidden;position:relative}
+.activity-open img{width:100%;height:100%;object-fit:cover;transition:transform .45s var(--ease)}
+.activity-open:hover img{transform:scale(1.08)}
+.activity-open:after{content:'↗';position:absolute;top:15px;right:15px;background:#102820c9;color:#f4fff1;display:grid;place-items:center;width:33px;height:33px;border:1px solid #ffffff3f;border-radius:50%;font-size:20px}
+.activity-content{padding:18px 20px 22px}
+.activity-content>span{font:800 9px/1 'Manrope';color:var(--peach);letter-spacing:.13em}
+.activity-content h3{font:800 17px/1.3 'Manrope';letter-spacing:-.04em;margin:9px 0}
+.activity-content p{color:var(--muted);font-size:12px;line-height:1.65;margin:0}
+.gallery-credit{color:var(--muted);font-size:11px;margin-top:24px}
+.gallery-dialog{padding:0;max-width:min(960px,calc(100% - 30px));width:960px;max-height:94vh;background:#111d1c;color:#f3f8f2;border:1px solid #ffffff33;border-radius:19px;box-shadow:0 30px 120px #000b}
+.gallery-dialog::backdrop{background:#04120de6;backdrop-filter:blur(8px)}
+.gallery-dialog-top,.gallery-dialog-bottom{padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.gallery-dialog-top span{font:800 9px 'Manrope';letter-spacing:.13em;color:#bce1c6}
+.gallery-dialog-top h3{font:800 19px/1.3 'Manrope';margin:5px 0 0}
+.gallery-dialog-close{border:1px solid #ffffff55;background:transparent;color:#fff;width:40px;height:40px;border-radius:50%;font-size:23px;cursor:pointer}
+.gallery-dialog img{display:block;width:100%;height:auto;max-height:65vh;object-fit:contain;background:#0d1515}
+.gallery-dialog-bottom p{font-size:12px;color:#becbc1;max-width:590px;line-height:1.6;margin:0}
+.gallery-dialog-actions{display:flex;gap:12px;align-items:center;font-size:11px;white-space:nowrap}
+.gallery-dialog-actions button{width:36px;height:36px;border:1px solid #ffffff4f;color:#fff;background:transparent;border-radius:50%;cursor:pointer}
+.gallery-dialog-actions button:hover,.gallery-dialog-close:hover{background:#ffffff19}
+@media(max-width:1130px){.main-nav{gap:13px}.main-nav a{font-size:11px}}
+@media(max-width:1000px){.main-nav{position:absolute;top:75px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:25px 24px 28px;display:none;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 35px 60px #0004}.main-nav.open{display:flex}.main-nav a{padding:14px 0;font-size:15px;border-bottom:1px solid var(--line)}.main-nav a:after{display:none}.menu-toggle{display:grid}.certificate-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.activity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.main-nav{top:69px}.credential-library{margin-top:55px}.credential-library-head{display:block}.credential-library-head>p{margin-top:14px}.certificate-grid{gap:9px}.certificate-preview{height:135px}.certificate-info{padding:13px}.certificate-info h4{font-size:12px}.certificate-info p{font-size:10px}.activity-grid{grid-template-columns:1fr;gap:13px}.activity-open{height:235px}.gallery-dialog-top,.gallery-dialog-bottom{padding:13px}.gallery-dialog-bottom{align-items:start;flex-direction:column;gap:10px}.gallery-dialog img{max-height:61vh}}
+
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Langsung ke konten</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="Munawir Rajabi, kembali ke awal">
+        <span class="wordmark-symbol">M<span class="wordmark-dot">.</span>R</span>
+        <span class="wordmark-label">Munawir<br>Rajabi<span class="wordmark-square">■</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">Tentang</a>
+        <a href="#work" data-i18n="navWork">Proyek</a>
+        <a href="#experience" data-i18n="navExperience">Pengalaman</a>
+        <a href="#skills" data-i18n="navSkills">Keahlian</a>
+        <a href="#credentials" data-i18n="navCredentials">Sertifikat</a>
+        <a href="#gallery" data-i18n="navGallery">Galeri</a>
+        <a href="#contact" data-i18n="navContact">Kontak</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-switch utility-btn" id="langToggle" type="button" aria-label="Switch language" title="Switch language">EN</button>
+        <button class="icon-btn utility-btn" id="themeToggle" type="button" aria-label="Ganti tema" title="Ganti tema">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.9 13a9 9 0 0 1-9.9-9.9 9 9 0 1 0 9.9 9.9Z"/></svg>
+        </button>
+        <button class="menu-toggle icon-btn" id="menuToggle" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="status-line"><span class="status-pulse"></span><span data-i18n="availability">Terbuka untuk peluang & kolaborasi profesional</span></div>
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> <span data-i18n="heroEyebrow">PORTFOLIO / MUNAWIR RAJABI</span></p>
+          <h1 id="heroTitle">Menghubungkan <em>data</em>, proses, dan dampak nyata<span class="title-period">.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">Saya berfokus pada Quality Assurance, Operational Excellence, dan solusi digital yang membuat proses kerja lebih terukur, efisien, dan dapat diandalkan.</p>
+          <div class="hero-chips" aria-label="Expertise"><span>Quality Assurance</span><span>Operational Excellence</span><span>Data Analytics</span></div>
+          <div class="hero-actions">
+            <a href="#work" class="button button-primary"><span data-i18n="exploreProjects">Eksplorasi Proyek</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+            <a href="#contact" class="button button-ghost"><span data-i18n="contactMe">Hubungi Saya</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </div>
+          <div class="hero-social">
+            <span class="hero-social-label" data-i18n="connectAt">TERHUBUNG DI</span>
+            <a id="heroLinkedin" href="https://www.linkedin.com/in/munawirrajabi/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a id="heroEmail" href="mailto:munawirrajabi72@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-stage" aria-label="Foto profil profesional Munawir Rajabi">
+          <div class="stage-grid" aria-hidden="true"></div>
+          <div class="orbit orbit-a" aria-hidden="true"></div><div class="orbit orbit-b" aria-hidden="true"></div>
+          <div class="identity-card">
+            <div class="identity-top"><span class="tiny-icon">✳</span><span data-i18n="identityTop">OPERATIONS × TECHNOLOGY</span><span class="mini-grid">▦</span></div>
+            <div class="identity-avatar" id="identityAvatar"><span>MR<span>✦</span></span><img id="profilePhoto" data-src="assets/profile.webp" alt="Foto Munawir Rajabi" loading="eager" hidden></div>
+            <div class="identity-bottom"><div><p data-i18n="identityCardLabel">BUILDING BETTER SYSTEMS</p><strong>Munawir Rajabi</strong></div><span class="circle-arrow">↗</span></div>
+          </div>
+          <div class="floating-note note-one">
+            <span class="note-icon mint">↗</span><div><span class="tiny-text" data-i18n="floatOneSmall">FOCUS AREA 01</span><strong>Process Improvement</strong></div>
+          </div>
+          <div class="floating-note note-two">
+            <div class="note-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div><span class="tiny-text" data-i18n="floatTwoSmall">DATA INTO DECISIONS</span><strong>Insight → Action</strong></div>
+          </div>
+          <div class="stage-label" aria-hidden="true">MR — PORTFOLIO 2026 <span>●</span> 01 / 06</div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><div class="hero-scroll"><span class="scroll-box">↓</span><span data-i18n="scrollExplore">SCROLL UNTUK EKSPLORASI</span></div><div class="hero-index">01 <span>/</span> SELECTED WORK</div></div>
+    </section>
+
+    <div class="expertise-strip" aria-hidden="true"><div class="expertise-track"><span>QUALITY ASSURANCE <b>✳</b> DATA ANALYTICS <b>✳</b> OPERATIONAL EXCELLENCE <b>✳</b> AUTOMATION <b>✳</b> CONTINUOUS IMPROVEMENT <b>✳</b> QUALITY ASSURANCE <b>✳</b> DATA ANALYTICS <b>✳</b> OPERATIONAL EXCELLENCE <b>✳</b></span></div></div>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">01</span><span data-i18n="aboutKicker">KENALI SAYA</span></span><span class="section-side" data-i18n="aboutSide">THE PERSON BEHIND THE PROCESS ↗</span></div>
+        <div class="about-grid">
+          <div class="about-main reveal"><h2 class="section-heading" id="aboutHeading">Saya percaya proses yang baik dimulai dari <em>pertanyaan yang tepat.</em></h2><p class="about-lead" data-i18n="aboutLead">Halo, saya Munawir. Lulusan Teknologi Informasi yang menggabungkan cara berpikir analitis dengan pengalaman langsung di lapangan operasional.</p><p class="about-body" data-i18n="aboutBody">Berpengalaman dalam pengawasan kualitas, pemantauan KPI, evaluasi SOP, perbaikan proses, dan pengembangan alat monitoring berbasis data. Saya menikmati pekerjaan yang menjembatani tim operasional, kebutuhan bisnis, dan solusi digital yang benar-benar digunakan.</p><a href="#experience" class="text-link"><span data-i18n="viewJourney">Lihat perjalanan karier</span><span aria-hidden="true">↗</span></a></div>
+          <div class="about-side reveal"><div class="stat-tile"><span data-i18n="statOneLabel">PENGALAMAN PROFESIONAL</span><strong>3<span>+</span></strong><small data-i18n="statOneDesc">tahun di lingkungan proyek & operasional</small></div><div class="stat-tile"><span data-i18n="statTwoLabel">SERTIFIKASI UTAMA</span><strong>04</strong><small data-i18n="statTwoDesc">Data Science, K3, AI & Project Management</small></div><div class="stat-tile"><span data-i18n="statThreeLabel">LATAR BELAKANG AKADEMIK</span><strong>3.95<span>/4</span></strong><small data-i18n="statThreeDesc">S1 Teknologi Informasi · UBSI</small></div></div>
+        </div>
+        <div class="principles" id="principles"></div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">02</span><span data-i18n="workKicker">KARYA TERPILIH</span></span><span class="section-side" data-i18n="workSide">IDEAS → SYSTEMS → IMPACT</span></div>
+        <div class="section-intro reveal"><div><p class="small-overline" data-i18n="workOverline">SELECTED PROJECTS / 2025 — 2026</p><h2 class="section-heading" id="workHeading">Bukan sekadar ide.<br><em>Solusi yang digunakan.</em></h2></div><p class="section-intro-text" data-i18n="workDescription">Pilihan inisiatif analisis, otomasi, perencanaan, dan kontrol kualitas. Visual yang ditampilkan berupa ilustrasi konsep, bukan data perusahaan yang sebenarnya.</p></div>
+        <div class="filter-bar reveal" id="projectFilters" aria-label="Project filter"></div>
+        <div class="projects-grid" id="projectsGrid"></div>
+        <div class="work-end reveal"><span data-i18n="workEnd">Setiap proyek berangkat dari pertanyaan sederhana: apa yang bisa dibuat lebih baik?</span><span class="work-end-star">✳</span></div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">03</span><span data-i18n="experienceKicker">PERJALANAN KARIER</span></span><span class="section-side" data-i18n="experienceSide">LEARNING BY DOING</span></div>
+        <div class="experience-layout"><div class="experience-head reveal"><h2 class="section-heading" id="experienceHeading">Belajar dari lapangan.<br><em>Bertumbuh lewat tantangan.</em></h2><p data-i18n="experienceIntro">Dari pengendalian jadwal proyek hingga perbaikan proses berbasis data—setiap peran membentuk cara saya memahami operasi secara menyeluruh.</p><div class="experience-decoration"><span>2021</span><span class="decoration-line"></span><span>2026</span></div></div><div class="timeline" id="timeline"></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">04</span><span data-i18n="skillsKicker">KOMPETENSI</span></span><span class="section-side" data-i18n="skillsSide">CAPABILITIES & TOOLKIT</span></div>
+        <div class="skills-layout"><div class="skills-heading reveal"><h2 class="section-heading" id="skillsHeading">Cara berpikir sistematis. <em>Eksekusi yang praktis.</em></h2><p data-i18n="skillsIntro">Perpaduan kompetensi operasional, metodologi perbaikan, dan kemampuan teknis untuk menerjemahkan masalah menjadi solusi.</p><div class="skills-mark" aria-hidden="true"><div class="skills-star">✳</div><span>ANALYZE<br>DESIGN<br>IMPROVE</span></div></div><div class="skill-groups" id="skillGroups"></div></div>
+      </div>
+    </section>
+
+    <section class="section credential-section" id="credentials">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">05</span><span data-i18n="credentialKicker">PENDIDIKAN & SERTIFIKASI</span></span><span class="section-side" data-i18n="credentialSide">CONTINUOUS LEARNING</span></div>
+        <div class="credential-head reveal"><h2 class="section-heading" id="credentialHeading">Tetap ingin tahu.<br><em>Terus berkembang.</em></h2></div>
+        <div class="credential-grid" id="credentialsGrid"></div>
+        <div class="credential-library reveal">
+          <div class="credential-library-head"><div><p class="small-overline" data-i18n="certificateLabel">DOKUMEN ASLI / SERTIFIKASI</p><h3 data-i18n="certificateHeading">Bukti kompetensi & pembelajaran</h3></div><p data-i18n="certificateDescription">Pratinjau sertifikat dan surat penunjukan. Klik dokumen untuk melihat versi asli di Google Drive.</p></div>
+          <div class="certificate-grid" id="certificateGrid"></div>
+        </div>
+        <div class="community-row reveal"><div class="community-icon">↗</div><div><span class="small-overline" data-i18n="communityTag">BEYOND THE OFFICE</span><h3 data-i18n="communityHeading">Aktif di dunia transportasi & komunitas</h3><p data-i18n="communityDescription">Terlibat dalam kegiatan KAI Commuter, relawan layanan penumpang, KAI Expo, dan Kampus Mengajar—membentuk kemampuan komunikasi, koordinasi, dan pelayanan publik.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-kicker"><span class="section-index">06</span><span data-i18n="galleryKicker">GALERI KEGIATAN</span></span><span class="section-side" data-i18n="gallerySide">MOMENTS THAT MATTER</span></div>
+        <div class="section-intro reveal"><div><p class="small-overline" data-i18n="galleryOverline">COMMUNITY • EDUCATION • HUMANITARIAN</p><h2 class="section-heading" id="galleryHeading">Berbagi pengalaman.<br><em>Bertumbuh bersama.</em></h2></div><p class="section-intro-text" data-i18n="galleryDescription">Momen dari kegiatan kerelawanan, komunitas perkeretaapian, pendidikan, dan aksi kemanusiaan.</p></div>
+        <div class="filter-bar reveal" id="activityFilters" aria-label="Filter galeri kegiatan"></div>
+        <div class="activity-grid" id="activityGrid"></div>
+        <p class="gallery-credit reveal" data-i18n="galleryCredit">Foto dokumentasi pribadi dari kegiatan komunitas dan relawan.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-pattern" aria-hidden="true">M<span>R</span></div>
+        <div class="contact-content reveal"><span class="contact-eyebrow"><span class="status-pulse"></span><span data-i18n="contactEyebrow">LET'S BUILD SOMETHING BETTER</span></span><h2 id="contactHeading">Mari ciptakan dampak <em>berikutnya.</em></h2><p data-i18n="contactDescription">Tertarik berdiskusi tentang peluang karier, kolaborasi, atau solusi pengembangan operasional? Saya senang terhubung dengan Anda.</p><div class="contact-actions"><a class="contact-mail" id="contactEmail" href="mailto:munawirrajabi72@gmail.com"><span data-i18n="sendEmail">Kirim Email</span><span aria-hidden="true">↗</span></a><a class="contact-linkedin" id="contactLinkedin" href="https://www.linkedin.com/in/munawirrajabi/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div><p class="contact-address">Bogor / Jakarta, Indonesia <span>·</span> <span data-i18n="openToOpportunities">Open to opportunities</span></p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a href="#home" class="footer-logo">MR<span>.</span></a><span>© <span id="year">2026</span> Munawir Rajabi. <span data-i18n="footerMessage">Dibuat dengan rasa ingin tahu & perhatian pada detail.</span></span><a href="#home" class="back-top"><span data-i18n="backTop">KEMBALI KE ATAS</span> ↑</a></div></footer>
+
+  <dialog class="gallery-dialog" id="galleryDialog" aria-label="Dokumentasi kegiatan"><div class="gallery-dialog-top"><div><span id="galleryDialogType"></span><h3 id="galleryDialogTitle"></h3></div><button type="button" class="gallery-dialog-close" id="galleryDialogClose" aria-label="Tutup galeri">×</button></div><img id="galleryDialogImage" alt="" src=""><div class="gallery-dialog-bottom"><p id="galleryDialogDescription"></p><div class="gallery-dialog-actions"><button type="button" id="galleryPrev" aria-label="Foto sebelumnya">←</button><span id="galleryCounter"></span><button type="button" id="galleryNext" aria-label="Foto selanjutnya">→</button></div></div></dialog>
+
+<dialog id="projectDialog" class="project-dialog" aria-labelledby="modalTitle"><div class="dialog-inner"><div class="dialog-header"><span class="small-overline" id="modalIndex">PROJECT / 01</span><button class="dialog-close" type="button" id="dialogClose" aria-label="Tutup detail">×</button></div><div id="dialogBody"></div></div></dialog>
+<script>
+/**
+ * PORTFOLIO CONTENT — Edit this file to update your website.
+ * Important: Public website. Do not add internal/customer data, private screenshots,
+ * or operational KPIs unless approved for public disclosure.
+ */
+window.PORTFOLIO = {
+  profile: {
+    name: "Munawir Rajabi",
+    email: "munawirrajabi72@gmail.com",
+    linkedin: "https://www.linkedin.com/in/munawirrajabi/",
+    location: "Bogor / Jakarta, Indonesia"
+    // Profile photo available locally in assets/profile.webp
+  },
+  translations: {
+    id: {
+      skip: "Langsung ke konten", navAbout: "Tentang", navWork: "Proyek", navExperience: "Pengalaman", navSkills: "Keahlian", navCredentials:"Sertifikat", navGallery:"Galeri", navContact: "Kontak",
+      availability: "Terbuka untuk peluang & kolaborasi profesional",
+      heroEyebrow: "PORTFOLIO / MUNAWIR RAJABI",
+      heroTitle: "Menghubungkan <em>data</em>, proses, dan dampak nyata<span class='title-period'>.</span>",
+      heroDescription: "Saya berfokus pada Quality Assurance, Operational Excellence, dan solusi digital yang membuat proses kerja lebih terukur, efisien, dan dapat diandalkan.",
+      exploreProjects: "Eksplorasi Proyek", contactMe: "Hubungi Saya", connectAt: "TERHUBUNG DI", identityTop: "OPERATIONS × TECHNOLOGY", identityCardLabel: "BUILDING BETTER SYSTEMS",
+      floatOneSmall: "FOCUS AREA 01", floatTwoSmall: "DATA INTO DECISIONS", scrollExplore: "SCROLL UNTUK EKSPLORASI",
+      aboutKicker: "KENALI SAYA", aboutSide: "THE PERSON BEHIND THE PROCESS ↗",
+      aboutHeading: "Saya percaya proses yang baik dimulai dari <em>pertanyaan yang tepat.</em>",
+      aboutLead: "Halo, saya Munawir. Lulusan Teknologi Informasi yang menggabungkan cara berpikir analitis dengan pengalaman langsung di lapangan operasional.",
+      aboutBody: "Berpengalaman dalam pengawasan kualitas, pemantauan KPI, evaluasi SOP, perbaikan proses, dan pengembangan alat monitoring berbasis data. Saya menikmati pekerjaan yang menjembatani tim operasional, kebutuhan bisnis, dan solusi digital yang benar-benar digunakan.",
+      viewJourney: "Lihat perjalanan karier", statOneLabel: "PENGALAMAN PROFESIONAL", statOneDesc: "tahun di lingkungan proyek & operasional", statTwoLabel: "SERTIFIKASI UTAMA", statTwoDesc: "Data Science, K3, AI & Project Management", statThreeLabel: "LATAR BELAKANG AKADEMIK", statThreeDesc: "S1 Teknologi Informasi · UBSI",
+      workKicker: "KARYA TERPILIH", workSide: "IDEAS → SYSTEMS → IMPACT", workOverline: "SELECTED PROJECTS / 2025 — 2026",
+      workHeading: "Bukan sekadar ide.<br><em>Solusi yang digunakan.</em>", workDescription: "Pilihan inisiatif analisis, otomasi, perencanaan, dan kontrol kualitas. Visual yang ditampilkan berupa ilustrasi konsep, bukan data perusahaan yang sebenarnya.",
+      workEnd: "Setiap proyek berangkat dari pertanyaan sederhana: apa yang bisa dibuat lebih baik?",
+      experienceKicker: "PERJALANAN KARIER", experienceSide: "LEARNING BY DOING",
+      experienceHeading: "Belajar dari lapangan.<br><em>Bertumbuh lewat tantangan.</em>",
+      experienceIntro: "Dari pengendalian jadwal proyek hingga perbaikan proses berbasis data—setiap peran membentuk cara saya memahami operasi secara menyeluruh.",
+      skillsKicker: "KOMPETENSI", skillsSide: "CAPABILITIES & TOOLKIT", skillsHeading: "Cara berpikir sistematis. <em>Eksekusi yang praktis.</em>",
+      skillsIntro: "Perpaduan kompetensi operasional, metodologi perbaikan, dan kemampuan teknis untuk menerjemahkan masalah menjadi solusi.",
+      credentialKicker: "PENDIDIKAN & SERTIFIKASI", credentialSide: "CONTINUOUS LEARNING", credentialHeading: "Tetap ingin tahu.<br><em>Terus berkembang.</em>",
+      certificateLabel:"DOKUMEN SERTIFIKASI",certificateHeading:"Bukti kompetensi & pembelajaran",certificateDescription:"Pratinjau dokumen asli. Klik sertifikat untuk melihat file di Google Drive.",certificateView:"Lihat dokumen asli ↗",
+      galleryKicker:"GALERI KEGIATAN",gallerySide:"MOMENTS THAT MATTER",galleryOverline:"KOMUNITAS • PENDIDIKAN • KEMANUSIAAN",galleryHeading:"Berbagi pengalaman.<br><em>Bertumbuh bersama.</em>",galleryDescription:"Dokumentasi kegiatan relawan, komunitas perkeretaapian, pendidikan, dan aksi kemanusiaan.",galleryCredit:"Dokumentasi kegiatan dari koleksi pribadi.",galleryAll:"Semua",galleryRail:"Perkeretaapian",galleryEducation:"Pendidikan",galleryVolunteer:"Kemanusiaan",galleryNext:"Foto berikutnya",galleryPrev:"Foto sebelumnya",
+      communityTag: "BEYOND THE OFFICE", communityHeading: "Aktif di dunia transportasi & komunitas",
+      communityDescription: "Terlibat dalam kegiatan KAI Commuter, relawan layanan penumpang, KAI Expo, dan Kampus Mengajar—membentuk kemampuan komunikasi, koordinasi, dan pelayanan publik.",
+      contactEyebrow: "LET'S BUILD SOMETHING BETTER", contactHeading: "Mari ciptakan dampak <em>berikutnya.</em>",
+      contactDescription: "Tertarik berdiskusi tentang peluang karier, kolaborasi, atau solusi pengembangan operasional? Saya senang terhubung dengan Anda.",
+      sendEmail: "Kirim Email", openToOpportunities: "Open to opportunities", footerMessage: "Dibuat dengan rasa ingin tahu & perhatian pada detail.", backTop: "KEMBALI KE ATAS",
+      filterAll: "Semua", filterAutomation: "Otomasi", filterAnalytics: "Analitik", filterQuality: "Kualitas", filterPlanning: "Perencanaan",
+      projectDetail: "Lihat Studi Kasus", projectIntro: "RINGKASAN PROYEK", projectChallenge: "Tantangan", projectSolution: "Pendekatan", projectOutcome: "Nilai yang Dihasilkan", projectTools: "TEKNOLOGI & METODE", closeModal: "Tutup", projectPublicNotice: "Studi kasus ini menjelaskan pendekatan profesional secara umum. Data operasional internal, identitas pelanggan, dan tangkapan layar asli tidak dipublikasikan.",
+      roleCurrent: "PERAN TERKINI", credentialBachelor: "PENDIDIKAN FORMAL", credentialCertified: "PELATIHAN & SERTIFIKASI", locationLabel: "INDONESIA"
+    },
+    en: {
+      skip: "Skip to content", navAbout: "About", navWork: "Projects", navExperience: "Experience", navSkills: "Expertise", navCredentials:"Certificates", navGallery:"Gallery", navContact: "Contact",
+      availability: "Open to professional opportunities & collaborations", heroEyebrow: "PORTFOLIO / MUNAWIR RAJABI",
+      heroTitle: "Connecting <em>data</em>, processes, and meaningful impact<span class='title-period'>.</span>",
+      heroDescription: "I work across Quality Assurance, Operational Excellence, and digital solutions—making workflows more measurable, efficient, and dependable.",
+      exploreProjects: "Explore Projects", contactMe: "Get in Touch", connectAt: "FIND ME ON", identityTop: "OPERATIONS × TECHNOLOGY", identityCardLabel: "BUILDING BETTER SYSTEMS",
+      floatOneSmall: "FOCUS AREA 01", floatTwoSmall: "DATA INTO DECISIONS", scrollExplore: "SCROLL TO EXPLORE",
+      aboutKicker: "ABOUT ME", aboutSide: "THE PERSON BEHIND THE PROCESS ↗", aboutHeading: "I believe great processes begin with <em>better questions.</em>",
+      aboutLead: "Hi, I'm Munawir. An Information Technology graduate combining analytical thinking with hands-on operational experience.",
+      aboutBody: "My work spans quality assurance, KPI monitoring, SOP reviews, process improvement, and data-driven monitoring systems. I enjoy connecting frontline teams, business priorities, and practical digital tools that people actually use.",
+      viewJourney: "Explore my journey", statOneLabel: "PROFESSIONAL EXPERIENCE", statOneDesc: "years across projects & operations", statTwoLabel: "CORE CERTIFICATIONS", statTwoDesc: "Data Science, OSH, AI & Project Management", statThreeLabel: "ACADEMIC BACKGROUND", statThreeDesc: "B.Sc. Information Technology · UBSI",
+      workKicker: "SELECTED WORK", workSide: "IDEAS → SYSTEMS → IMPACT", workOverline: "SELECTED PROJECTS / 2025 — 2026",
+      workHeading: "More than ideas.<br><em>Solutions put to work.</em>", workDescription: "Selected initiatives spanning analytics, automation, planning, and quality controls. Visuals are conceptual illustrations rather than actual company data.",
+      workEnd: "Every project begins with a simple question: what could work better?",
+      experienceKicker: "MY JOURNEY", experienceSide: "LEARNING BY DOING", experienceHeading: "Grounded in operations.<br><em>Growing through challenges.</em>",
+      experienceIntro: "From project schedules to data-driven process improvements, each role has shaped how I understand operations end to end.",
+      skillsKicker: "EXPERTISE", skillsSide: "CAPABILITIES & TOOLKIT", skillsHeading: "Structured thinking. <em>Practical execution.</em>",
+      skillsIntro: "A blend of operational expertise, improvement frameworks, and technical capability to turn problems into solutions.",
+      credentialKicker: "EDUCATION & CERTIFICATIONS", credentialSide: "CONTINUOUS LEARNING", credentialHeading: "Stay curious.<br><em>Keep growing.</em>",
+      certificateLabel:"ORIGINAL CERTIFICATIONS",certificateHeading:"Credentials & continuous learning",certificateDescription:"Previews of original documents. Click a certificate to open it on Google Drive.",certificateView:"View original document ↗",
+      galleryKicker:"ACTIVITY GALLERY",gallerySide:"MOMENTS THAT MATTER",galleryOverline:"COMMUNITY • EDUCATION • HUMANITARIAN",galleryHeading:"Shared experiences.<br><em>Stronger communities.</em>",galleryDescription:"A selection of moments from railway communities, education volunteering, and humanitarian initiatives.",galleryCredit:"Activity documentation from a personal photo collection.",galleryAll:"All",galleryRail:"Railway",galleryEducation:"Education",galleryVolunteer:"Humanitarian",galleryNext:"Next photo",galleryPrev:"Previous photo",
+      communityTag: "BEYOND THE OFFICE", communityHeading: "Community & transportation volunteerism",
+      communityDescription: "Contributed to KAI Commuter activities, passenger-assistance volunteering, KAI Expo, and Kampus Mengajar—strengthening communication, coordination, and public-service skills.",
+      contactEyebrow: "LET'S BUILD SOMETHING BETTER", contactHeading: "Let's create the <em>next impact.</em>",
+      contactDescription: "Interested in a professional opportunity, collaboration, or operational-improvement conversation? I'd love to connect.",
+      sendEmail: "Send an Email", openToOpportunities: "Open to opportunities", footerMessage: "Built with curiosity & attention to detail.", backTop: "BACK TO TOP",
+      filterAll: "All", filterAutomation: "Automation", filterAnalytics: "Analytics", filterQuality: "Quality", filterPlanning: "Planning",
+      projectDetail: "View Case Study", projectIntro: "PROJECT OVERVIEW", projectChallenge: "The Challenge", projectSolution: "The Approach", projectOutcome: "The Value", projectTools: "TOOLS & METHODS", closeModal: "Close", projectPublicNotice: "This case study presents a general professional approach. Confidential operational data, customer details, and original internal screenshots are not published.",
+      roleCurrent: "MOST RECENT ROLE", credentialBachelor: "FORMAL EDUCATION", credentialCertified: "TRAINING & CERTIFICATION", locationLabel: "INDONESIA"
+    }
+  },
+  principles: [
+    {number:"01", icon:"⌁", title:{id:"Pahami akar masalah",en:"Understand the root cause"}, text:{id:"Dengarkan tim di lapangan, petakan alur, lalu temukan hambatan yang benar-benar penting.",en:"Listen to frontline teams, map the process, and identify the bottlenecks that matter."}},
+    {number:"02", icon:"↗", title:{id:"Jadikan data berguna",en:"Make data useful"}, text:{id:"Ubah angka menjadi pola, insight, dan tindakan yang mudah dipahami pemangku kepentingan.",en:"Turn numbers into patterns, insights, and actions stakeholders can understand."}},
+    {number:"03", icon:"✳", title:{id:"Bangun untuk digunakan",en:"Build for real adoption"}, text:{id:"Solusi terbaik adalah yang mudah dipakai, jelas pemiliknya, dan bertahan setelah implementasi.",en:"The best solution is usable, clearly owned, and sustainable beyond launch."}}
+  ],
+  projects: [
+    {
+      id:"offhire", number:"01", category:"automation", style:"flow", year:"2026", eyebrow:"WORKFLOW AUTOMATION",
+      title:{id:"Offhire Workflow Tracker",en:"Offhire Workflow Tracker"},
+      summary:{id:"Menyatukan status, tenggat, prioritas, dan tindak lanjut proses offhire dalam satu sistem pemantauan.",en:"Bringing status, due dates, priorities, and offhire follow-ups into one monitoring workflow."},
+      challenge:{id:"Proses offhire membutuhkan visibilitas status yang konsisten dan koordinasi cepat saat muncul pengecualian atau tenggat mendekat.",en:"Offhire workflows need reliable status visibility and timely coordination when exceptions arise or deadlines approach."},
+      solution:{id:"Merancang tracker terstruktur dengan pemantauan status, pengingat prioritas, log tindakan, dan tampilan ringkas untuk eskalasi operasional.",en:"Designed a structured tracker for status monitoring, prioritization, action logs, and concise operational escalation views."},
+      outcome:{id:"Pekerjaan lebih mudah ditelusuri, prioritas lebih terlihat, dan koordinasi lintas fungsi mendapat satu acuan yang jelas.",en:"Better traceability, clearer prioritization, and a shared reference point for cross-functional coordination."},
+      stack:["Workflow Mapping","Google Sheets","KPI Monitoring","Process Design"]
+    },
+    {
+      id:"qa", number:"02", category:"quality", style:"checklist", year:"2026", eyebrow:"QUALITY SYSTEMS",
+      title:{id:"QA Audit & Findings Dashboard",en:"QA Audit & Findings Dashboard"},
+      summary:{id:"Alur pencatatan temuan audit yang lebih rapi, terdokumentasi, dan mudah ditindaklanjuti.",en:"A more structured and traceable workflow for recording audit findings and following up corrective actions."},
+      challenge:{id:"Temuan kualitas dari inspeksi lapangan perlu dicatat konsisten agar bukti, tindak lanjut, dan hasil verifikasi tidak terpisah.",en:"Field quality findings require consistent documentation so evidence, actions, and verification remain connected."},
+      solution:{id:"Merancang dashboard audit material dan QC repair, kategori temuan, unggah bukti foto, serta pelacakan corrective action.",en:"Designed material and repair-QC audit views, finding categories, photo-evidence capture, and corrective-action tracking."},
+      outcome:{id:"Meningkatkan keterlacakan dokumentasi dan memudahkan evaluasi ulang atas tindakan korektif.",en:"Improved documentation traceability and easier review of corrective actions."},
+      stack:["Quality Assurance","Audit Design","Google Apps Script","Google Sheets"]
+    },
+    {
+      id:"yard", number:"03", category:"planning", style:"blocks", year:"2026", eyebrow:"DECISION SUPPORT",
+      title:{id:"Depot Capacity Scenario Simulator",en:"Depot Capacity Scenario Simulator"},
+      summary:{id:"Simulasi skenario kapasitas, penempatan stok, kebutuhan alat, dan alur movement untuk keputusan operasional.",en:"Scenario modeling for capacity, stock placement, equipment demand, and movement flows."},
+      challenge:{id:"Keputusan penempatan kontainer dan kapasitas membutuhkan gambaran trade-off antara utilisasi ruang, beban alat, dan produktivitas.",en:"Container-placement decisions require balancing space utilization, equipment workloads, and productivity."},
+      solution:{id:"Menyusun model skenario yang dapat mengubah asumsi volume, segmentasi stok, konfigurasi blok, serta kapasitas penanganan.",en:"Built a scenario model with adjustable volume assumptions, stock segments, block configurations, and handling capacity."},
+      outcome:{id:"Alternatif penataan dan kebutuhan sumber daya bisa dibandingkan sebelum diterapkan di lapangan.",en:"Layout alternatives and resource needs can be compared before field implementation."},
+      stack:["Scenario Analysis","Capacity Planning","Excel","Operational Modeling"]
+    },
+    {
+      id:"kpi", number:"04", category:"analytics", style:"chart", year:"2025—26", eyebrow:"PERFORMANCE INTELLIGENCE",
+      title:{id:"Operational KPI Intelligence",en:"Operational KPI Intelligence"},
+      summary:{id:"Mengubah pelaporan kinerja harian dan mingguan menjadi insight yang bisa ditindaklanjuti.",en:"Turning daily and weekly operational reporting into actionable performance insights."},
+      challenge:{id:"Data kinerja tersebar pada beberapa aktivitas; interpretasi yang berbeda dapat menghambat identifikasi akar masalah.",en:"Performance data spans multiple activities, making inconsistent interpretation a barrier to root-cause identification."},
+      solution:{id:"Mengonsolidasikan indikator turnaround time, yard occupancy, produktivitas, dan kualitas ke dalam analisis berkala.",en:"Consolidated turnaround, yard occupancy, productivity, and quality indicators into recurring performance analysis."},
+      outcome:{id:"Diskusi operasional lebih berbasis bukti dan tren masalah lebih cepat teridentifikasi.",en:"More evidence-based operational reviews and faster identification of recurring issues."},
+      stack:["Microsoft Excel","Data Visualization","KPI Analysis","Management Reporting"]
+    },
+    {
+      id:"survey", number:"05", category:"automation", style:"form", year:"2026", eyebrow:"DIGITAL PROCESS DESIGN",
+      title:{id:"Digital Survey & Estimate Workflow",en:"Digital Survey & Estimate Workflow"},
+      summary:{id:"Konsep antarmuka input inspeksi yang mengurangi pengulangan entri dan meningkatkan keterlacakan estimasi.",en:"A digital inspection-input interface concept to reduce repetitive entries and improve estimate traceability."},
+      challenge:{id:"Input inspeksi berulang dan format dokumentasi yang tidak seragam meningkatkan risiko informasi terlewat.",en:"Repeated inspection entries and inconsistent documentation increase the risk of missing information."},
+      solution:{id:"Menyusun form dengan komponen, jenis tindakan, dimensi, bukti foto, dan ringkasan pekerjaan yang terstruktur.",en:"Structured forms for components, actions, dimensions, photo evidence, and consolidated work summaries."},
+      outcome:{id:"Alur input lebih konsisten, mudah ditinjau, dan siap dikembangkan untuk validasi data.",en:"More consistent entry flows, easier review, and a foundation for data validation."},
+      stack:["UX Workflow","HTML / JavaScript","Google Apps Script","Data Validation"]
+    },
+    {
+      id:"truck", number:"06", category:"analytics", style:"allocation", year:"2026", eyebrow:"OPERATIONS VISIBILITY",
+      title:{id:"Trucking Allocation Monitor",en:"Trucking Allocation Monitor"},
+      summary:{id:"Ringkasan permintaan, alokasi vendor, dan status pengambilan dalam satu dashboard berbasis pekerjaan.",en:"One dashboard for requests, vendor allocations, and pickup status by work order."},
+      challenge:{id:"Satu order dapat muncul dalam beberapa alokasi, sehingga rekap manual berisiko menduplikasi total permintaan.",en:"One order can span multiple allocations, making manual summaries prone to double-counting."},
+      solution:{id:"Menggabungkan order unik dan merangkum allocation, request, take, serta pengecualian sesuai aturan proses.",en:"Grouped unique orders and summarized allocations, requests, pickups, and exceptions with process rules."},
+      outcome:{id:"Tampilan kebutuhan transportasi lebih jelas dan dapat dipakai untuk koordinasi operasional harian.",en:"Clearer transport-demand visibility to support daily coordination."},
+      stack:["Data Cleaning","Dashboard Design","Google Sheets","Business Rules"]
+    }
+  ],
+  experience: [
+    {period:{id:"2025 — SEKARANG",en:"2025 — PRESENT"},role:{id:"Quality Assurance & Operational Excellence",en:"Quality Assurance & Operational Excellence"},company:"PT Seacon Bintang Sejahtera",meta:{id:"Logistik / Operasional Depo",en:"Logistics / Depot Operations"},description:{id:"Terlibat dalam audit kualitas, evaluasi kepatuhan SOP, analisis KPI, root cause analysis, serta inisiatif digitalisasi dan continuous improvement.",en:"Worked on quality auditing, SOP compliance reviews, KPI analysis, root-cause investigations, and digital continuous-improvement initiatives."},current:true},
+    {period:{id:"2023 — 2025",en:"2023 — 2025"},role:{id:"Equipment Staff → Equipment Leader",en:"Equipment Staff → Equipment Leader"},company:"PT Seacon Bintang Sejahtera",meta:{id:"Customer Service / Equipment Coordination",en:"Customer Service / Equipment Coordination"},description:{id:"Menangani koordinasi pergerakan kontainer, layanan pelanggan, pelaporan, komunikasi dengan unit kerja, dan monitoring kebutuhan operasional.",en:"Supported container-movement coordination, customer service, reporting, interdepartmental communication, and daily operational needs."},current:false},
+    {period:{id:"2021 — 2023",en:"2021 — 2023"},role:{id:"Project Planning Control",en:"Project Planning Control"},company:"PT Mustika Adi Sejahtera",meta:{id:"Penjadwalan & Pengendalian Proyek",en:"Project Planning & Control"},description:{id:"Mendukung penjadwalan pekerjaan, koordinasi dengan tim lapangan, dan komunikasi progres proyek kepada pihak terkait.",en:"Supported project scheduling, field-team coordination, and stakeholder progress communication."},current:false}
+  ],
+  skills: [
+    {number:"01", name:{id:"Operational & Quality",en:"Operational & Quality"},description:{id:"Membangun proses yang konsisten dan terkendali.",en:"Building consistent and controlled processes."},items:["Quality Assurance / QC","SOP & Compliance Review","Root Cause Analysis","CAPA & Audit Reporting","Operational Risk Monitoring"]},
+    {number:"02", name:{id:"Data & Improvement",en:"Data & Improvement"},description:{id:"Mengubah kompleksitas menjadi keputusan yang jelas.",en:"Turning complexity into clear decisions."},items:["Data Analysis & PivotTables","KPI Dashboarding","Turnaround / Capacity Analysis","Scenario & Forecast Modeling","Continuous Improvement"]},
+    {number:"03", name:{id:"Digital Tools",en:"Digital Tools"},description:{id:"Mewujudkan solusi yang praktis dan mudah digunakan.",en:"Making practical, usable digital solutions."},items:["Microsoft Excel / PowerPoint","Google Sheets / Apps Script","HTML / CSS / JavaScript","Power BI (Working Knowledge)","Python / RapidMiner (Training)"]}
+  ],
+  credentials: [
+    {number:"01",type:"bachelor",year:"2023",title:{id:"S1 Teknologi Informasi",en:"Bachelor of Information Technology"},organization:"Universitas Bina Sarana Informatika",extra:"GPA 3.95 / 4.00",icon:"🎓"},
+    {number:"02",type:"cert",year:"2026",title:{id:"Ahli K3 Umum",en:"General Occupational Safety & Health Expert"},organization:"Kementerian Ketenagakerjaan RI",extra:"License valid to Jul 2029",icon:"✳"},
+    {number:"03",type:"cert",year:"2025",title:{id:"Associate Data Scientist",en:"Associate Data Scientist"},organization:"BNSP / LSP BPPTIK",extra:"Kompetensi Sains Data",icon:"⌁"},
+    {number:"04",type:"cert",year:"2025",title:{id:"Google Project Management",en:"Google Project Management"},organization:"Google / Coursera",extra:"Professional Certificate",icon:"↗"},
+    {number:"05",type:"cert",year:"2025",title:{id:"Google AI Essentials",en:"Google AI Essentials"},organization:"Google / Coursera",extra:"AI Productivity & Responsible Use",icon:"✦"}
+  ],
+  certificateDocs: [
+    {id:"safety",year:"2026",title:{id:"Ahli K3 Umum",en:"Ahli K3 Umum"},description:{id:"Penunjukan Ahli Keselamatan dan Kesehatan Kerja",en:"Penunjukan Ahli Keselamatan dan Kesehatan Kerja"},issuer:"Ministry of Manpower of Indonesia",preview:"assets/certificates/safety.webp",link:"https://drive.google.com/file/d/1F4VgwimVKQm0qAf0oJwoXS7yAgvct2kb/view"},
+    {id:"data",year:"2025",title:{id:"Junior / Associate Data Scientist",en:"Junior / Associate Data Scientist"},description:{id:"Sertifikasi kompetensi BNSP melalui LSP BPPTIK",en:"Sertifikasi kompetensi BNSP melalui LSP BPPTIK"},issuer:"BNSP / LSP BPPTIK",preview:"assets/certificates/data.webp",link:"https://drive.google.com/file/d/1u8USbcjpe7mpFgvQ0TaNgTEMpj0ton5t/view"},
+    {id:"pm",year:"2025",title:{id:"Google Project Management",en:"Google Project Management"},description:{id:"Sertifikat profesional Google / Coursera",en:"Sertifikat profesional Google / Coursera"},issuer:"Google / Coursera",preview:"assets/certificates/pm.webp",link:"https://drive.google.com/file/d/1zgKuQNB-v7fkk1FM03_zUU0A6Y3vcItP/view"},
+    {id:"ai",year:"2025",title:{id:"Google AI Essentials",en:"Google AI Essentials"},description:{id:"Pelatihan keterampilan AI dan produktivitas",en:"Pelatihan keterampilan AI dan produktivitas"},issuer:"Google / Coursera",preview:"assets/certificates/ai.webp",link:"https://drive.google.com/file/d/1IHQ7n0IEHZHXB5yAPURpeR3Hu0c5M2h1/view"}
+  ],
+  activities: [
+    {id:"rail-2025",category:"perkeretaapian",title:{id:"KAI Expo 2025",en:"KAI Expo 2025"},caption:{id:"Dokumentasi kegiatan komunitas di KAI Expo 2025.",en:"Community activity at KAI Expo 2025."},src:"assets/gallery/rail-2025.webp"},
+    {id:"rail-expo-group",category:"perkeretaapian",title:{id:"Komunitas di KAI Expo",en:"Komunitas di KAI Expo"},caption:{id:"Kebersamaan tim relawan dan komunitas perkeretaapian.",en:"Together with railway community volunteers."},src:"assets/gallery/rail-expo-group.webp"},
+    {id:"rail-community",category:"perkeretaapian",title:{id:"Kegiatan RD1",en:"Kegiatan RD1"},caption:{id:"Partisipasi dalam kegiatan komunitas perkeretaapian.",en:"Taking part in a railway community activity."},src:"assets/gallery/rail-community.webp"},
+    {id:"rail-event",category:"perkeretaapian",title:{id:"Relawan KAI Expo",en:"Relawan KAI Expo"},caption:{id:"Kolaborasi dan koordinasi relawan pada kegiatan KAI Expo.",en:"Volunteer coordination and teamwork at KAI Expo."},src:"assets/gallery/rail-event.webp"},
+    {id:"rail-safety",category:"perkeretaapian",title:{id:"Sosialisasi Perlintasan",en:"Sosialisasi Perlintasan"},caption:{id:"Kegiatan sosialisasi keselamatan di sekitar perlintasan kereta api.",en:"Railway crossing safety awareness activity."},src:"assets/gallery/rail-safety.webp"},
+    {id:"edu-1",category:"pendidikan",title:{id:"Kampus Mengajar — Sekolah",en:"Kampus Mengajar — Sekolah"},caption:{id:"Kegiatan Kampus Mengajar bersama pihak sekolah.",en:"Kampus Mengajar activity with school staff."},src:"assets/gallery/edu-1.webp"},
+    {id:"edu-2",category:"pendidikan",title:{id:"Kampus Mengajar — Lapangan",en:"Kampus Mengajar — Lapangan"},caption:{id:"Dokumentasi kegiatan pendidikan dan pengabdian di sekolah.",en:"Educational volunteering and community-service activity."},src:"assets/gallery/edu-2.webp"},
+    {id:"vol-1",category:"kemanusiaan",title:{id:"Relawan Semeru 2021",en:"Relawan Semeru 2021"},caption:{id:"Kegiatan relawan kemanusiaan pascabencana Semeru 2021.",en:"Humanitarian volunteering following the 2021 Semeru disaster."},src:"assets/gallery/vol-1.webp"},
+    {id:"vol-2",category:"kemanusiaan",title:{id:"Distribusi Bantuan Semeru",en:"Distribusi Bantuan Semeru"},caption:{id:"Dukungan penyaluran bantuan untuk warga terdampak.",en:"Supporting aid distribution for affected residents."},src:"assets/gallery/vol-2.webp"},
+    {id:"vol-3",category:"kemanusiaan",title:{id:"Aksi Kemanusiaan Semeru",en:"Aksi Kemanusiaan Semeru"},caption:{id:"Kegiatan bersama relawan dan masyarakat dalam penyaluran bantuan.",en:"Volunteers and community members delivering humanitarian support."},src:"assets/gallery/vol-3.webp"}
+  ]
+};
+
+</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = window.PORTFOLIO;
+  if (!DATA) return;
+  const $ = (s, scope = document) => scope.querySelector(s);
+  const $$ = (s, scope = document) => [...scope.querySelectorAll(s)];
+  const safe = str => String(str ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;'}[c]));
+  const t = (item, lang) => typeof item === 'string' ? item : (item && (item[lang] || item.id)) || '';
+  const getSaved = (key, fallback) => { try { return localStorage.getItem(key) || fallback; } catch { return fallback; } };
+  const save = (key, value) => { try { localStorage.setItem(key, value); } catch { /* private browsing */ } };
+  let lang = getSaved('mr-language', 'id') === 'en' ? 'en' : 'id';
+  let theme = getSaved('mr-theme', 'dark');
+  let activeFilter = 'all';
+  let activityFilter='all';
+  let visibleActivities=[];
+  let activeImageIndex=0;
+  const dynamicElements = [];
+
+  const htmlKeys = new Set(['heroTitle','aboutHeading','workHeading','experienceHeading','skillsHeading','credentialHeading','galleryHeading','contactHeading']);
+  const headingTargets = {heroTitle:'#heroTitle',aboutHeading:'#aboutHeading',workHeading:'#workHeading',experienceHeading:'#experienceHeading',skillsHeading:'#skillsHeading',credentialHeading:'#credentialHeading',galleryHeading:'#galleryHeading',contactHeading:'#contactHeading'};
+  const iconVisual = {
+    flow:`<div class="visual"><div class="flow-steps"><span>✓</span><i></i><span>≡</span><i></i><span>↗</span></div></div>`,
+    checklist:`<div class="visual"><div class="check-visual"><div class="check-row"><i></i></div><div class="check-row"><i></i></div><div class="check-row"><i></i></div><div class="check-row"><i></i></div></div></div>`,
+    blocks:`<div class="visual blocks-visual">${Array.from({length:16},()=>'<b></b>').join('')}</div>`,
+    chart:`<div class="visual graph-visual"><div class="graph-bars">${[33,58,46,74,62,90,77,96,83].map(x=>`<b style="height:${x}%"></b>`).join('')}</div><div class="graph-line"><svg viewBox="0 0 210 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0,26 28,21 55,24 82,14 111,17 143,8 176,12 210,2" fill="none" stroke="#d09c6e" stroke-width="2.5"/></svg></div></div>`,
+    form:`<div class="visual form-visual"><div class="form-field"></div><div class="form-field short"></div><div class="form-field selected"></div><div class="form-field"></div></div>`,
+    allocation:`<div class="visual allocation-visual"><div class="allocation-line"><i></i></div><div class="allocation-line"><i></i></div><div class="allocation-line"><i></i></div><div class="allocation-line"><i></i></div></div>`
+  };
+
+  function bindProfile() {
+    const {email,linkedin} = DATA.profile;
+    $('#heroEmail').href = `mailto:${email}`;
+    $('#contactEmail').href = `mailto:${email}?subject=${encodeURIComponent('Professional Inquiry — Munawir Rajabi')}`;
+    $('#heroLinkedin').href = linkedin;
+    $('#contactLinkedin').href = linkedin;
+    $('#year').textContent = new Date().getFullYear();
+    const photo = $('#profilePhoto');
+    photo.src = photo.dataset.src;
+    photo.addEventListener('load', () => { photo.hidden = false; });
+    photo.addEventListener('error', () => { photo.hidden = true; });
+  }
+
+  function applyTheme() {
+    theme = theme === 'light' ? 'light' : 'dark';
+    document.body.dataset.theme = theme;
+    $('#themeToggle').setAttribute('aria-label',theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#eff3ec' : '#0b171b');
+  }
+
+  function renderStaticText() {
+    const tr = DATA.translations[lang];
+    document.documentElement.lang = lang;
+    $$('[data-i18n]').forEach(el => { const key=el.dataset.i18n;if(tr[key] !== undefined) el.textContent=tr[key]; });
+    for (const [key,selector] of Object.entries(headingTargets)) { const el = $(selector); if(el && htmlKeys.has(key)) el.innerHTML = tr[key]; }
+    $('#langToggle').textContent = lang === 'id' ? 'EN' : 'ID';
+    $('#langToggle').setAttribute('aria-label',lang === 'id' ? 'Switch to English' : 'Ganti ke Bahasa Indonesia');
+    $('#menuToggle').setAttribute('aria-label',lang === 'id' ? 'Buka menu' : 'Open menu');
+    $('#dialogClose').setAttribute('aria-label',tr.closeModal);
+  }
+
+  function renderPrinciples() {
+    $('#principles').innerHTML = DATA.principles.map(p => `
+      <article class="principle-card reveal"><div class="principle-top"><span class="principle-number">${safe(p.number)} / PRINCIPLE</span><span class="principle-icon" aria-hidden="true">${safe(p.icon)}</span></div><h3>${safe(t(p.title,lang))}</h3><p>${safe(t(p.text,lang))}</p></article>`).join('');
+  }
+
+  function renderFilters() {
+    const keys = ['all','automation','analytics','quality','planning'];
+    const tr = DATA.translations[lang];
+    $('#projectFilters').innerHTML = keys.map(k=>`<button type="button" class="filter" data-filter="${k}" aria-pressed="${activeFilter===k}">${safe(tr['filter'+k[0].toUpperCase()+k.slice(1)])}</button>`).join('');
+    $$('#projectFilters .filter').forEach(btn => btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.filter;
+      renderFilters(); renderProjects();
+    }));
+  }
+
+  function renderProjects() {
+    const tr = DATA.translations[lang];
+    const rows = DATA.projects.filter(p => activeFilter === 'all' || p.category === activeFilter);
+    $('#projectsGrid').innerHTML = rows.map((p,i) => `
+      <article class="project-card" style="animation-delay:${Math.min(i*60,300)}ms">
+        <div class="project-art" aria-hidden="true"><span class="art-label">CONCEPT / ${safe(p.number)}</span>${iconVisual[p.style] || iconVisual.chart}<span class="art-side">MR — ${safe(p.year)}</span></div>
+        <div class="project-content"><div class="project-meta"><span>${safe(p.eyebrow)}</span><span>${safe(p.year)}</span></div><h3>${safe(t(p.title,lang))}</h3><p>${safe(t(p.summary,lang))}</p><button type="button" class="project-action" data-project="${safe(p.id)}" aria-label="${safe(tr.projectDetail)}: ${safe(t(p.title,lang))}"><span>${safe(tr.projectDetail)}</span><span class="action-arrow" aria-hidden="true">↗</span></button></div>
+      </article>`).join('');
+    $$('#projectsGrid [data-project]').forEach(btn => btn.addEventListener('click', () => openProject(btn.dataset.project)));
+  }
+
+  function openProject(id) {
+    const p = DATA.projects.find(x => x.id === id); if(!p)return;
+    const tr = DATA.translations[lang];
+    $('#modalIndex').textContent = `PROJECT / ${p.number} — ${p.eyebrow}`;
+    $('#dialogBody').innerHTML = `<h2 class="dialog-title" id="modalTitle">${safe(t(p.title,lang))}</h2>
+      <p class="dialog-summary">${safe(t(p.summary,lang))}</p>
+      <section class="dialog-detail"><h4>${safe(tr.projectChallenge)}</h4><p>${safe(t(p.challenge,lang))}</p></section>
+      <section class="dialog-detail"><h4>${safe(tr.projectSolution)}</h4><p>${safe(t(p.solution,lang))}</p></section>
+      <section class="dialog-detail"><h4>${safe(tr.projectOutcome)}</h4><p>${safe(t(p.outcome,lang))}</p></section>
+      <section class="dialog-detail"><h4>${safe(tr.projectTools)}</h4><div class="dialog-tags">${p.stack.map(s=>`<span>${safe(s)}</span>`).join('')}</div></section>
+      <p class="dialog-note">${safe(tr.projectPublicNotice)}</p>`;
+    const dialog = $('#projectDialog');
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    else dialog.setAttribute('open','');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function renderTimeline() {
+    const tr = DATA.translations[lang];
+    $('#timeline').innerHTML = DATA.experience.map(p=>`<article class="timeline-item reveal"><div class="timeline-date"><span>${safe(t(p.period,lang))}</span>${p.current?`<span class="current-tag">${safe(tr.roleCurrent)}</span>`:''}</div><h3>${safe(t(p.role,lang))}</h3><span class="timeline-company">${safe(p.company)}</span><span class="timeline-meta">${safe(t(p.meta,lang))}</span><p>${safe(t(p.description,lang))}</p></article>`).join('');
+  }
+
+  function renderSkills() {
+    $('#skillGroups').innerHTML = DATA.skills.map(g=>`<article class="skill-group reveal"><div class="skill-group-head"><h3>${safe(t(g.name,lang))}</h3><span>${safe(g.number)} / 03</span></div><p>${safe(t(g.description,lang))}</p><div class="skill-tags">${g.items.map(i=>`<span class="skill-tag">${safe(i)}</span>`).join('')}</div></article>`).join('');
+  }
+
+  function renderCredentials() {
+    const tr = DATA.translations[lang];
+    $('#credentialsGrid').innerHTML = DATA.credentials.map(c=>`<article class="credential-card reveal"><div class="credential-card-header"><span>${c.type==='bachelor'?safe(tr.credentialBachelor):safe(tr.credentialCertified)}</span><span>${safe(c.year)}</span></div><div class="credential-card-icon" aria-hidden="true">${safe(c.icon)}</div><h3>${safe(t(c.title,lang))}</h3><p>${safe(c.organization)}</p><small>${safe(c.extra)}</small></article>`).join('');
+  }
+
+
+  function renderCertificates(){
+    const tr=DATA.translations[lang];
+    $('#certificateGrid').innerHTML=DATA.certificateDocs.map(c=>`<a class="certificate-tile" href="${safe(c.link)}" target="_blank" rel="noopener noreferrer" aria-label="${safe(tr.certificateView)}: ${safe(t(c.title,lang))}">
+      <div class="certificate-preview"><img loading="lazy" src="${safe(c.preview)}" alt="${safe(t(c.title,lang))}" width="700" height="600"></div>
+      <div class="certificate-info"><small>${safe(c.year)} / CERTIFIED</small><h4>${safe(t(c.title,lang))}</h4><p>${safe(c.issuer)}</p><span>${safe(tr.certificateView)}</span></div>
+    </a>`).join('');
+  }
+  function renderActivityFilters(){
+    const tr=DATA.translations[lang];
+    const names={all:'galleryAll',perkeretaapian:'galleryRail',pendidikan:'galleryEducation',kemanusiaan:'galleryVolunteer'};
+    $('#activityFilters').innerHTML=Object.keys(names).map(k=>`<button type="button" class="filter" data-activity="${k}" aria-pressed="${activityFilter===k}">${safe(tr[names[k]])}</button>`).join('');
+    $$('#activityFilters .filter').forEach(btn=>btn.addEventListener('click',()=>{activityFilter=btn.dataset.activity;renderActivityFilters();renderActivities();}));
+  }
+  function renderActivities(){
+    const tr=DATA.translations[lang];
+    const names={perkeretaapian:'galleryRail',pendidikan:'galleryEducation',kemanusiaan:'galleryVolunteer'};
+    visibleActivities=DATA.activities.filter(a=>activityFilter==='all'||a.category===activityFilter);
+    $('#activityGrid').innerHTML=visibleActivities.map((a,i)=>`<article class="activity-card" style="animation-delay:${i*35}ms"><button type="button" class="activity-open" data-photo="${safe(a.id)}" aria-label="${safe(t(a.title,lang))}" title="${safe(t(a.title,lang))}"><img src="${safe(a.src)}" loading="lazy" alt="${safe(t(a.title,lang))}" width="560" height="400"></button><div class="activity-content"><span>${safe(tr[names[a.category]])}</span><h3>${safe(t(a.title,lang))}</h3><p>${safe(t(a.caption,lang))}</p></div></article>`).join('');
+    $$('#activityGrid .activity-open').forEach(btn=>btn.addEventListener('click',()=>{activeImageIndex=visibleActivities.findIndex(a=>a.id===btn.dataset.photo);openGalleryImage();}));
+  }
+  function openGalleryImage(){
+    if(!visibleActivities.length)return;
+    const a=visibleActivities[activeImageIndex];
+    const tr=DATA.translations[lang];
+    const names={perkeretaapian:'galleryRail',pendidikan:'galleryEducation',kemanusiaan:'galleryVolunteer'};
+    $('#galleryDialogType').textContent=tr[names[a.category]];
+    $('#galleryDialogTitle').textContent=t(a.title,lang);
+    $('#galleryDialogImage').src=a.src;
+    $('#galleryDialogImage').alt=t(a.title,lang);
+    $('#galleryDialogDescription').textContent=t(a.caption,lang);
+    $('#galleryCounter').textContent=`${activeImageIndex+1} / ${visibleActivities.length}`;
+    const dlg=$('#galleryDialog');
+    if(!dlg.open){if(typeof dlg.showModal==='function')dlg.showModal();else dlg.setAttribute('open','');}
+  }
+  function cycleGallery(n){if(!visibleActivities.length)return;activeImageIndex=(activeImageIndex+n+visibleActivities.length)%visibleActivities.length;openGalleryImage();}
+
+  let revealObserver;
+  function startReveals() {
+    if (revealObserver) revealObserver.disconnect();
+    const targets = $$('.reveal');
+    if(!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){targets.forEach(x=>x.classList.add('visible'));return;}
+    revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target);} });
+    },{threshold:.1,rootMargin:'0px 0px -20px 0px'});
+    targets.forEach(x=>revealObserver.observe(x));
+  }
+
+  function render() {
+    renderStaticText(); renderPrinciples(); renderFilters(); renderProjects(); renderTimeline(); renderSkills(); renderCredentials(); renderCertificates(); renderActivityFilters(); renderActivities();
+    startReveals();
+  }
+
+  function closeMenu() { $('#mainNav').classList.remove('open'); $('#menuToggle').setAttribute('aria-expanded','false'); }
+  function setupEvents() {
+    $('#langToggle').addEventListener('click',()=>{lang=lang==='id'?'en':'id';save('mr-language',lang);render();});
+    $('#themeToggle').addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';save('mr-theme',theme);applyTheme();});
+    $('#menuToggle').addEventListener('click',()=>{const open=!$('#mainNav').classList.contains('open');$('#mainNav').classList.toggle('open',open);$('#menuToggle').setAttribute('aria-expanded',String(open));});
+    $$('#mainNav a').forEach(a=>a.addEventListener('click',closeMenu));
+    document.addEventListener('click',e=>{if(!$('#siteHeader').contains(e.target))closeMenu();});
+    $('#dialogClose').addEventListener('click',()=>$('#projectDialog').close());
+    $('#galleryDialogClose').addEventListener('click',()=>$('#galleryDialog').close());
+    $('#galleryDialog').addEventListener('click',e=>{if(e.target===$('#galleryDialog'))$('#galleryDialog').close();});
+    $('#galleryPrev').addEventListener('click',()=>cycleGallery(-1));
+    $('#galleryNext').addEventListener('click',()=>cycleGallery(1));
+    document.addEventListener('keydown',e=>{if($('#galleryDialog').open){if(e.key==='ArrowRight')cycleGallery(1);else if(e.key==='ArrowLeft')cycleGallery(-1);}});
+    $('#projectDialog').addEventListener('click',e=>{if(e.target===$('#projectDialog'))$('#projectDialog').close();});
+    $('#projectDialog').addEventListener('close',()=>document.body.style.overflow='');
+    let ticking = false;
+    function updateScroll(){
+      const max=document.documentElement.scrollHeight-window.innerHeight;
+      $('#scrollProgress').style.width=`${max>0?Math.min(100,window.scrollY/max*100):0}%`;
+      ticking=false;
+    }
+    window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(updateScroll);ticking=true;}},{passive:true});
+    window.addEventListener('resize',updateScroll,{passive:true});updateScroll();
+    const sections=$$('main section[id]');
+    if('IntersectionObserver' in window){
+      const navObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){$$('#mainNav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}
+      }),{rootMargin:'-20% 0px -65% 0px'});
+      sections.forEach(s=>navObserver.observe(s));
+    }
+  }
+  bindProfile();applyTheme();render();setupEvents();
+})();
+
+</script>
+</body>
+</html>
